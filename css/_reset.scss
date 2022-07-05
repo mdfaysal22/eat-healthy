@@ -1,0 +1,21 @@
+/* Google Font Imported Link */ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    transition: all ease 0.4s;
+    outline: none;
+
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+    }
+    button{
+        border: none;
+    }
+}

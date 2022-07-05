@@ -1,0 +1,181 @@
+/*Import Reset SCSS */
+/* Google Font Imported Link */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  transition: all ease 0.4s;
+  outline: none;
+}
+* a {
+  text-decoration: none;
+}
+* ul {
+  list-style: none;
+}
+* button {
+  border: none;
+}
+
+/*Some Premade Style Here */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 15px 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(15deg, #FA9B44, #FF1E1E);
+  border-radius: 100px;
+  cursor: pointer;
+}
+.btn a {
+  color: #E5E5E5;
+}
+
+/*Local Style Here*/
+#hero {
+  background-color: #E5E5E5;
+  width: 100%;
+  height: 100vh;
+}
+#hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .container .text-content h1 {
+  font-size: 4rem;
+}
+#hero .container .text-content h1 span {
+  background: linear-gradient(15deg, #FA9B44, #FF1E1E);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+#hero .container .text-content p {
+  background: linear-gradient(15deg, #FA9B44, #FF1E1E);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  padding: 10px 20px 10px 0;
+}
+#hero .container .hero-image img {
+  width: 40vw;
+}
+
+#about {
+  background-image: url(../img/about-bg.png), linear-gradient(15deg, rgba(251, 162, 79, 0.2235294118), rgba(255, 30, 30, 0.2431372549));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#about .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  margin: 0 auto;
+}
+#about .container .about-image img {
+  width: 20vw;
+  padding: 3rem 0 0 0;
+}
+#about .container .about-content {
+  padding: 0 0 0 10rem;
+}
+#about .container .about-content h1 {
+  background: linear-gradient(15deg, #707070, #fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+#about .container .about-content p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+#about .container .about-content .btn {
+  margin-top: 1.5rem;
+}
+
+#recipits {
+  background-color: #E5E5E5;
+}
+#recipits .recipit-header {
+  text-align: center;
+  padding: 1rem 10rem;
+}
+#recipits .recipit-header h1 {
+  padding: 1rem 0;
+  font-size: 3rem;
+}
+#recipits .card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0 3rem 0;
+}
+#recipits .card-container .card {
+  width: 40vw;
+  background-color: #fff;
+  border-radius: 15px;
+}
+#recipits .card-container .card .card-image img {
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem;
+}
+#recipits .card-container .card .card-title h3 {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+#recipits .card-container .card p {
+  padding: 0 1rem 1rem 1rem;
+  font-size: 0.9rem;
+}
+
+#status .status-container {
+  width: 70vw;
+  margin: 10vh auto;
+  box-shadow: 0px 0px 19px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#status .status-container .content {
+  padding: 2rem;
+}
+#status .status-container .content h1 {
+  font-weight: 700;
+  color: #18191F;
+  text-transform: uppercase;
+}
+#status .status-container .content small {
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+
+#footer {
+  background-color: #0B0D17;
+}
+#footer .footer-container {
+  padding: 3rem 5rem;
+  text-align: center;
+}
+#footer .footer-container img {
+  width: 100px;
+}
+#footer .footer-container p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.7rem;
+}/*# sourceMappingURL=style.css.map */
